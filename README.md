@@ -1,4 +1,4 @@
 
-run the application using the command
+Use this command from the project directory to run it
 
 #npm start
