@@ -17,7 +17,7 @@ app.controller('timelineCtrl', function ($scope, $uibModalInstance, item) {
         "showMajorLabels": true,
         "showMinorLabels": true
     };
-
+    //set the data to match the vis timeline format
     var milestones = [];
     for (var c in item.milestones) {
         var obj = item.milestones[c];
