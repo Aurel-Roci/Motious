@@ -1,0 +1,11 @@
+
+<div ng-controller="myCtrl" class="success gridListdemoBasicUsage" ng-app="myApp.cardView">
+    <div class="md-padding col-sm-offset-3 col-sm-6">
+        <md-card ng-repeat="project in projects" ng-click="timeline(project)">
+            <md-card-content>
+                <h2>{{project.title}}</h2>
+                <p>{{htmlToPlaintext(project.body)}}</p>
+            </md-card-content>
+        </md-card>
+    </div>
+</div>
